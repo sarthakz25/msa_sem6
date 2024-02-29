@@ -22,4 +22,6 @@ public class Employee {
     String email;
     @Column(nullable = false)
     double Salary;
+    @Embedded
+    Address address;
 }

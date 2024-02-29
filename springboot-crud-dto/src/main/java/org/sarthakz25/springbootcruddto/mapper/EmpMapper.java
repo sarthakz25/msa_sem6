@@ -10,7 +10,8 @@ public class EmpMapper {
                 employee.getId(),
                 employee.getName(),
                 employee.getEmail(),
-                employee.getSalary()
+                employee.getSalary(),
+                employee.getAddress()
         );
 
         return employeeDTO;
@@ -22,7 +23,8 @@ public class EmpMapper {
                 employeeDTO.getId(),
                 employeeDTO.getName(),
                 employeeDTO.getEmail(),
-                employeeDTO.getSalary()
+                employeeDTO.getSalary(),
+                employeeDTO.getAddress()
         );
 
         return employee;
